@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <radialGradient id="halo" cx="0.35" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.5" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1c1917"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#000000"/>
+  <rect width="800" height="600" fill="url(#halo)"/>
+  <g transform="translate(260,150)">
+    <rect x="-30" y="200" width="62" height="150" rx="8" fill="#0a0a0a" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="2"/>
+    <ellipse cx="1" cy="185" rx="60" ry="20" fill="url(#gold)"/>
+    <ellipse cx="1" cy="175" rx="78" ry="26" fill="#0a0a0a" stroke="url(#gold)" stroke-width="3"/>
+    <ellipse cx="1" cy="194" rx="68" ry="14" fill="#fbbf24" opacity="0.6"/>
+    <circle cx="1" cy="162" r="0" fill="#f59e0b">
+      <animate attributeName="r" values="2;10;2" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.1;0.9" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="1" cy="160" rx="60" ry="60" fill="url(#face)" stroke="url(#gold)" stroke-width="4"/>
+    <g transform="translate(1,160)" stroke="#d97706" stroke-width="2">
+      <line x1="0" y1="0" x2="0" y2="-38" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="26" y2="-12" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="3" fill="#f59e0b" stroke="none"/>
+    </g>
+    <g transform="translate(1,160)" fill="#d97706" font-family="system-ui, sans-serif" font-size="9">
+      <text x="-2" y="-48">1</text>
+      <text x="32" y="-34">2</text>
+      <text x="34" y="-4">3</text>
+      <text x="24" y="22">4</text>
+      <text x="-8" y="36">5</text>
+      <text x="-30" y="26">6</text>
+      <text x="-34" y="2">7</text>
+      <text x="-28" y="-26">8</text>
+    </g>
+    <rect x="-12" y="205" width="26" height="30" rx="4" fill="#0a0a0a" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M0 215 v10 m-5 -5 h10" stroke="#f59e0b" stroke-width="2" transform="translate(0,215)"/>
+  </g>
+  <text x="520" y="260" font-family="Georgia, serif" font-size="40" font-weight="600" fill="url(#gold)" text-anchor="middle">AURUM</text>
+  <text x="520" y="292" font-family="system-ui, sans-serif" font-size="14" letter-spacing="6" fill="#d97706" text-anchor="middle">HOROLOGY · EST. 1924</text>
+  <text x="520" y="360" font-family="system-ui, sans-serif" font-size="13" fill="#fbbf24" opacity="0.7" text-anchor="middle">"Time, perfected light."</text>
+  <text x="520" y="470" font-family="system-ui, sans-serif" font-size="11" letter-spacing="3" fill="#a16207" text-anchor="middle">SWISS MADE · SAPPHIRE CRYSTAL · LIMITED EDITION</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1b4d"/>
+      <stop offset="0.4" stop-color="#7c3aed"/>
+      <stop offset="0.6" stop-color="#fb7185"/>
+      <stop offset="0.85" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+    </linearGradient>
+    <radialGradient id="sunrise" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="0.4" stop-color="#fde68a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c2d12"/>
+      <stop offset="0.5" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#dawn)"/>
+  <circle cx="560" cy="390" r="180" fill="url(#sunrise)"/>
+  <circle cx="560" cy="390" r="34" fill="#fef3c7" opacity="0.95"/>
+  <path d="M0 380 Q 200 360 400 378 T 800 372 L 800 600 L 0 600 Z" fill="url(#sea)"/>
+  <g opacity="0.6" stroke="#fbbf24" stroke-width="2" fill="none">
+    <path d="M80 430 q30 -8 60 0 q30 8 60 0"/>
+    <path d="M320 470 q30 -8 60 0 q30 8 60 0"/>
+    <path d="M560 500 q26 -7 52 0 q26 7 52 0"/>
+  </g>
+  <g transform="translate(260,360)">
+    <ellipse cx="40" cy="46" rx="60" ry="8" fill="#000" opacity="0.3"/>
+    <path d="M0 44 L80 44 L90 60 L-10 60 Z" fill="#3b2f2f"/>
+    <path d="M-10 60 L6 62 L14 70 L-6 70 Z" fill="#422f2f"/>
+    <path d="M12 46 L12 12 L52 12 L52 46" fill="#452a2a" stroke="#5d3a3a" stroke-width="2"/>
+    <path d="M16 20 C 20 6, 40 4, 50 12" fill="#422f2f"/>
+    <circle cx="52" cy="24" r="9" fill="#e7b89c"/>
+    <path d="M44 28 q3 3 6 0 q-1 -6 -6 -6 q-5 0 -6 6 z" fill="#c98a5f" />
+    <ellipse cx="49" cy="24" rx="2" ry="2.6" fill="#1c1917"/>
+    <ellipse cx="55" cy="24" rx="2" ry="2.6" fill="#1c1917"/>
+    <path d="M52 26 q6 -2 8 2" stroke="#78350f" stroke-width="1.4" fill="none"/>
+    <path d="M56 16 l4 -6 M55 18 l6 -3 M50 14 l1 -6" stroke="#ece4d8" stroke-width="1.4"/>
+    <circle cx="43" cy="33" r="7" fill="#e7b89c" opacity="0.6"/>
+    <path d="M38 12 q-6 -10 -14 -8 M40 16 q-8 -4 -12 4" stroke="#dcd3c5" stroke-width="2" fill="none"/>
+    <path d="M38 18 l-26 18" stroke="#8b5e34" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-2 36 l-4 -26" stroke="#8b5e34" stroke-width="4"/>
+    <path d="M48 46 l2 -26" stroke="#8b5e34" stroke-width="4"/>
+  </g>
+  <g stroke="#fde68a" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M120 250 q6 -8 12 0 q6 8 12 0" fill="none"/>
+    <path d="M680 190 q6 -8 12 0 q6 8 12 0" fill="none"/>
+  </g>
+  <g transform="translate(30,540)" fill="#0a0a0a" opacity="0.8">
+    <rect width="740" height="40" rx="8"/>
+    <circle cx="50" cy="20" r="7" fill="#7c3aed"/>
+    <text x="70" y="26" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#e0d4f9">SORA · ELDERLY FISHERMAN AT SUNRISE · 24FPS</text>
+    <rect x="540" y="10" width="188" height="20" rx="4" fill="#242424"/>
+    <text x="548" y="24" font-family="system-ui, sans-serif" font-size="12" fill="#a1a1aa">PHOTOREAL · FILM GRAIN</text>
+  </g>
+</svg>

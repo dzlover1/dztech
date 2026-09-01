@@ -16,7 +16,7 @@ insert into public.prompts (
   'Gemini Image',
   'ar',
   array['Education','Infographic','Arabic','Physics'],
-  null,
+  '/samples/physics.svg',
   42,
   now() - interval '5 days'
 ),
@@ -29,7 +29,7 @@ insert into public.prompts (
   'Midjourney',
   'en',
   array['Marketing','Advertising','Luxury','Product'],
-  null,
+  '/samples/luxury-watch.svg',
   78,
   now() - interval '4 days'
 ),
@@ -42,7 +42,7 @@ insert into public.prompts (
   'Veo',
   'en',
   array['Video','Cinematic','Action','Epic'],
-  null,
+  '/samples/desert-battle.svg',
   120,
   now() - interval '3 days'
 ),
@@ -55,7 +55,7 @@ insert into public.prompts (
   'Canva',
   'ar',
   array['Design','Arabic','Editorial','Typography'],
-  null,
+  '/samples/arabic-magazine.svg',
   35,
   now() - interval '2 days'
 ),
@@ -68,7 +68,7 @@ insert into public.prompts (
   'ChatGPT',
   'ar',
   array['Education','Math','Tutor','Arabic'],
-  null,
+  '/samples/math-solver.svg',
   95,
   now() - interval '1 day'
 ),
@@ -81,7 +81,7 @@ insert into public.prompts (
   'Sora',
   'en',
   array['Video','Sora','Cinematic','Emotional'],
-  null,
+  '/samples/fisherman.svg',
   61,
   now() - interval '12 hours'
 );

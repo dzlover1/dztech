@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg5)"/>
+  <rect x="0" y="0" width="800" height="140" fill="#312e81"/>
+  <text x="400" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" font-weight="700" fill="#ffffff">مُدرّس الرياضيات الذكي</text>
+  <text x="400" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#c7d2fe">AI Exercise Solver · شرح خطوة بخطوة</text>
+  <g transform="translate(80,190)">
+    <rect width="300" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="24" y="40" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#312e81">سؤال التمرين</text>
+    <text x="24" y="72" font-family="system-ui, sans-serif" font-size="20" fill="#1e293b">3x + 5 = 20</text>
+    <text x="24" y="112" font-family="system-ui, sans-serif" font-size="14" fill="#64748b" direction="rtl">جد قيمة المجهول x وحلّل الحل خطوة بخطوة.</text>
+    <rect x="24" y="138" width="120" height="28" rx="6" fill="#eef2ff"/>
+    <text x="38" y="157" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#4f46e5">🔍  أوجد x</text>
+  </g>
+  <g transform="translate(420,190)">
+    <rect width="300" height="360" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="24" y="40" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#312e81">الحل المفصّل</text>
+    <g font-family="system-ui, sans-serif" font-size="15" fill="#334155">
+      <circle cx="36" cy="74" r="13" fill="#4f46e5"/>
+      <text x="36" y="79" text-anchor="middle" font-size="12" fill="#fff">1</text>
+      <text x="58" y="79">نطرح 5 من الطرفين</text>
+      <text x="58" y="99" fill="#64748b">3x = 20 − 5  →  3x = 15</text>
+      <circle cx="36" cy="138" r="13" fill="#4f46e5"/>
+      <text x="36" y="143" text-anchor="middle" font-size="12" fill="#fff">2</text>
+      <text x="58" y="143">نقسم الطرفين على 3</text>
+      <text x="58" y="163" fill="#64748b">x = 15 ÷ 3  →  x = 5</text>
+      <circle cx="36" cy="202" r="13" fill="#059669"/>
+      <text x="36" y="207" text-anchor="middle" font-size="12" fill="#fff">3</text>
+      <text x="58" y="207" font-weight="700" fill="#059669">التحقق</text>
+      <text x="58" y="227" fill="#64748b">3(5) + 5 = 15 + 5 = 20 ✓</text>
+    </g>
+    <rect x="24" y="260" width="252" height="72" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+    <text x="40" y="286" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#047857">الإجابة: x = 5</text>
+    <text x="40" y="312" font-family="system-ui, sans-serif" font-size="12" fill="#059669">جرّب مشابهاً: 2x − 4 = 10</text>
+  </g>
+  <text x="400" y="590" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">مدعوم بالذكاء الاصطناعي · يعمل مع الجبر والهندسة والتفاضل</text>
+</svg>

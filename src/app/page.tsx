@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useLanguage } from "@/providers/language-provider";
 import { createClient } from "@/lib/supabase/client";
@@ -82,6 +83,33 @@ export default function LandingPage() {
               {t("addPrompt")}
             </Link>
           </Button>
+        </div>
+
+        {/* Visual preview collage */}
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+          {[
+            { src: "/samples/physics.svg", alt: "Physics infographic" },
+            { src: "/samples/luxury-watch.svg", alt: "Luxury watch ad" },
+            { src: "/samples/desert-battle.svg", alt: "Cinematic desert scene" },
+            { src: "/samples/arabic-magazine.svg", alt: "Arabic editorial" },
+            { src: "/samples/math-solver.svg", alt: "Math solver" },
+            { src: "/samples/fisherman.svg", alt: "Fisherman sunrise" },
+          ].map((img, i) => (
+            <div
+              key={img.src}
+              className={`rounded-2xl overflow-hidden border shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${
+                i % 2 === 1 ? "md:translate-y-6" : ""
+              }`}
+            >
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={800}
+                height={600}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
